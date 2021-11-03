@@ -4,7 +4,10 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <link rel="icon" href="favicon.ico" type="image/icon type">
+  <title>
+           SHEFOO
+  </title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
