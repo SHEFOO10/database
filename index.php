@@ -7,7 +7,7 @@
   <title>
            SHEFOO
   </title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="water-gun.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
