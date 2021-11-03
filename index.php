@@ -7,7 +7,7 @@
   <title>
            SHEFOO
   </title>
-  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="icon" type="image/x-icon" href="favicon.png?v=2"  />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
