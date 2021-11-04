@@ -2,10 +2,10 @@ body {
   margin: 0;
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(216, 180, 197);
+  background-color: rgb(190, 146, 120);
 }
 .header {
-  background-color: currentColor;
+  background-color: black;
   width: 100%;
   margin-bottom: 25px;
   padding: 15px 0 0 0;
@@ -43,7 +43,7 @@ body {
 
 .header p {
   
-  background-color: currentColor;
+  background-color: black;
    
   padding-left: 25px;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -73,7 +73,7 @@ body {
 
 #navbar {
   overflow: hidden;
-  background-color: currentColor;
+  background-color: rgb(223, 129, 41);
   
 
 }
