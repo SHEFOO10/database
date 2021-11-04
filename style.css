@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(230, 204, 204);
+  background-color: rgba(255, 166, 166, 0.726);
 }
 .header {
   background-color: black;
