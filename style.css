@@ -2,10 +2,10 @@ body {
   margin: 0;
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(216, 180, 197);
 }
 .header {
-  background-color: black;
+  background-color: currentColor;
   width: 100%;
   margin-bottom: 25px;
   padding: 15px 0 0 0;
@@ -43,7 +43,7 @@ body {
 
 .header p {
   
-  background-color: black;
+  background-color: currentColor;
    
   padding-left: 25px;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -73,11 +73,28 @@ body {
 
 #navbar {
   overflow: hidden;
-  background-color: rgb(223, 129, 41);
+  background-color: rgb(60, 137, 224);
   
 
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 #navbar a {
   float: left;
   display: block;
