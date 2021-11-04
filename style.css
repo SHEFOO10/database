@@ -73,7 +73,7 @@ body {
 
 #navbar {
   overflow: hidden;
-  background-color: rgb(60, 137, 224);
+  background-color: currentColor;
   
 
 }
