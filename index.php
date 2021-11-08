@@ -15,10 +15,10 @@
   <div class="header">
     <p>S H E F O O</p>
     <div class="facebook">
-      <a href="https://www.facebook.com/shefoo.ha" target="blank"><img src="https://img.icons8.com/fluency/100/000000/facebook-new.png" class="facebook"></a>
+      <a href="https://www.facebook.com/shefoo.ha" target="blank"><img src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670124.png?token=exp=1636063063~hmac=9c33a4842b9a5a9e46e592aae42451b7" class="facebook"></a>
     </div>
     <div class="instagram">
-      <a href="https://www.instagram.com/real_shefoo/" target="blank"><img src="https://img.icons8.com/clouds/100/000000/instagram-new--v3.png" class="instagram"/>
+      <a href="https://www.instagram.com/real_shefoo/" target="blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" class="instagram"/>
       </a>
     </div> 
   </div>
