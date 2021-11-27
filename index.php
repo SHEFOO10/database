@@ -1,9 +1,10 @@
-
+<?php 
+session_start();?>
 <!DOCTYPE html>
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
   <title>
            SHEFOO
   </title>
@@ -12,63 +13,168 @@
 </head>
 <body>
   
-  <div class="header">
-    <p>S H E F O O</p>
-    <div class="facebook">
-      <a href="https://www.facebook.com/shefoo.ha" target="blank"><img src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670124.png?token=exp=1636063063~hmac=9c33a4842b9a5a9e46e592aae42451b7" class="facebook"></a>
-    </div>
-    <div class="instagram">
-      <a href="https://www.instagram.com/real_shefoo/" target="blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" class="instagram"/>
-      </a>
-    </div> 
+  
+  <section class="wrap-3d">
+  
+  <div class="item-3d">
+    <span class="ground"></span>
+    <figure class="item-content group">
+      <div class="item-img">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/aw-white.png" alt="" />
+      </div>
+      <figcaption class="item-caption">
+        <p>
+          <strong>38mm and 42mm Case</strong><br>
+          7000 Series Silver Aluminum<br>
+          Ion-X Glass<br>
+          Retina Display<br>
+          Composite Back
+          <button class="bubbly-button">Add To Cart.</button>
+        </p>
+        <p>
+          <strong>Sport Band</strong><br>
+          White Fluoroelastomer<br>
+          Stainless Steel Pin
+        </p>
+        <p>
+          <a href="#">View 38mm in the store</a><br>
+          <a href="#">View 42mm in the store</a>
+        </p>
+      </figcaption>
+    </figure>
   </div>
   
-    <div class="loader-wrapper">
-      <span class="loader"></span>
-    </div>
- 
-  <div id="navbar">
-    <a href="#Home">Home</a>
-    <a href="#Aboutme">About</a>
-    <a href="javascript:void(0)">Contact</a>
+  <div class="item-3d">
+    <span class="ground"></span>
+    <figure class="item-content group">
+      <div class="item-img">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/aw-blue.png" alt="" />
+      </div>
+      <figcaption class="item-caption">
+        <p>
+          <strong>38mm and 42mm Case</strong><br>
+          7000 Series Silver Aluminum<br>
+          Ion-X Glass<br>
+          Retina Display<br>
+          Composite Back
+          <button class="bubbly-button">Add To Cart.</button>
+        </p>
+        <p>
+          <strong>Sport Band</strong><br>
+          Blue Fluoroelastomer<br>
+          Stainless Steel Pin
+        </p>
+        <p>
+          <a href="#">View 38mm in the store</a><br>
+          <a href="#">View 42mm in the store</a>
+        </p>
+      </figcaption>
+    </figure>
   </div>
   
-  <div id="Home">
-    <h3>I am Sherif Hamdy Mohamed</h3>
-    <p>17 Years Old</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
-    <p>i know basics.</p>
+  <div class="item-3d">
+    <span class="ground"></span>
+    <figure class="item-content group">
+      <div class="item-img">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/aw-green.png" alt="" />
+      </div>
+      <figcaption class="item-caption">
+        <p>
+          <strong>38mm and 42mm Case</strong><br>
+          7000 Series Silver Aluminum<br>
+          Ion-X Glass<br>
+          Retina Display<br>
+          Composite Back
+        </p>
+        <p>
+          <strong>Sport Band</strong><br>
+          Green Fluoroelastomer<br>
+          Stainless Steel Pin
+          <button class="bubbly-button">Add To Cart.</button>
+        </p>
+        <p>
+          <a href="#">View 38mm in the store</a><br>
+          <a href="#">View 42mm in the store</a>
+        </p>
+      </figcaption>
+    </figure>
   </div>
   
-  <script>
-     $(window).on("load",function(){
-          $(".loader-wrapper").fadeOut("slow");
-        });
-  window.onscroll = function() {myFunction()};
+  <div class="item-3d">
+    <span class="ground"></span>
+    <figure class="item-content group">
+      <div class="item-img">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/aw-red.png" alt="" />
+      </div> 
+      <figcaption class="item-caption">
+        <p>
+          <strong>38mm and 42mm Case</strong><br>
+          7000 Series Silver Aluminum<br>
+          Ion-X Glass<br>
+          Retina Display<br>
+          Composite Back
+        </p>
+        <p>
+          <strong>Sport Band</strong><br>
+          Pink Fluoroelastomer<br>
+          Stainless Steel Pin<button class="bubbly-button">Add To Cart.</button>
+        </p>
+        <p>
+          <a href="#">View 38mm in the store</a><br>
+          <a href="#">View 42mm in the store</a>
+        </p>
+      </figcaption>
+    </figure>
+  </div>
   
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
+  <div class="item-3d">
+    <span class="ground"></span>
+    <figure class="item-content group">
+      <div class="item-img">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/aw-black.png" alt="" />
+      </div>
+      <figcaption class="item-caption">
+        <p>
+          <strong>38mm and 42mm Case</strong><br>
+          7000 Series Silver Aluminum<br>
+          Ion-X Glass<br>
+          Retina Display<br>
+          Composite Back
+        </p>
+        <p>
+          <strong>Sport Band</strong><br>
+          Black Fluoroelastomer<br>
+          Stainless Steel Pin
+        </p>
+        <p>
+          <a href="#">View 38mm in the store</a><br>
+          <a href="#">View 42mm in the store</a>
+        </p>
+      </figcaption>
+    </figure>
+  </div>
   
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {///////////////////
-      navbar.classList.remove("sticky");
-    }
-  }
+</section>
   
-  </script>
+<script>
+  var animateButton = function(e) {
+
+e.preventDefault;
+//reset animation
+e.target.classList.remove('animate');
+
+e.target.classList.add('animate');
+setTimeout(function(){
+  e.target.classList.remove('animate');
+},700);
+};
+
+var bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+for (var i = 0; i < bubblyButtons.length; i++) {
+bubblyButtons[i].addEventListener('click', animateButton, false);
+}
+</script>
   
 </body>
 </html> 

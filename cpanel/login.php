@@ -1,4 +1,5 @@
-<?php session_start();
+<?php
+session_start();
  $_SESSION['LAST_ACTIVITY'] = time();
 ?>
 <!DOCTYPE html>
@@ -106,8 +107,8 @@ body {
 </head>
 <body>
 	<div class="box">
-		<h2>Login</h2>
-		<form method="post" action="authentication.php">
+		<h2>Cpanel</h2>
+		<form method="post" action="dashboard.php">
 			<div class="inputBox">
 				<input type="text" name="user" required>
 				<label for="">Username</label>

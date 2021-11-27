@@ -1,6 +1,15 @@
 {
-    "sqltools.connections": [
-        {
+    "folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "shefoo",
+			"path": "..\\..\\database\\shefoo"
+		}
+	],
+    "settings": {
+        "sqltools.connections": [{
             "mysqlOptions": {
                 "authProtocol": "default"
             },
@@ -9,9 +18,9 @@
             "port": 3306,
             "driver": "MariaDB",
             "name": "SHEFOO",
+            "username": "root",
             "database": "shefoo",
-            "username": "shefoo",
-            "password": "shefoo"
-        }
-    ]
+            "password": ""
+        }]
+    }
 }

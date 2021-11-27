@@ -1,6 +1,3 @@
-<?php session_start();
- $_SESSION['LAST_ACTIVITY'] = time();
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -109,16 +106,15 @@ body {
 		<h2>Login</h2>
 		<form method="post" action="authentication.php">
 			<div class="inputBox">
-				<input type="text" name="user" required>
+				<input type="text" name="user" <?php echo"required" ?>>
 				<label for="">Username</label>
 			</div>
 			<div class="inputBox">
 				<input type="password" name="pass" required>
 				<label for="">Password</label>
 			</div>
-			<input type="submit" name="submit" value="Submit">
+			<input type="submit" name="" value="Submit">
 		</form>
 	</div>
-	
 </body>
 </html>
