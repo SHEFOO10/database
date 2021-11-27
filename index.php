@@ -8,7 +8,6 @@ session_start();?>
   <title>
            SHEFOO
   </title>
-  <link rel="icon" type="image/x-icon" href="favicon.png?v=2"  />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
