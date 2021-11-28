@@ -1,6 +1,4 @@
-INSERT INTO login (username, password)
-VALUES (
-    'shefoo',
-    'shefoo'
-  );
-SELECT * FROM login;
+CREATE TABLE login (  
+  username VARCHAR(255),
+  password VARCHAR(255)
+)
