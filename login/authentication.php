@@ -25,7 +25,7 @@ if ($_SESSION['LAST_ACTIVITY'] - time() > 1800){
                 $count = mysqli_num_rows($result);  
                 
                 if($count == 1){  
-                   header('Location: /dashboard/shefooweb/index.php');
+                   header('Location: ./index.php');
                     
                 }  
                 else{  
