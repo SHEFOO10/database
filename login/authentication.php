@@ -5,7 +5,7 @@ if ($_SESSION['LAST_ACTIVITY'] - time() > 1800){
     session_destroy();
 }
     if($_SERVER['REQUEST_METHOD'] == "POST"){
-            include('/xampp/htdocs/dashboard/shefooweb/connection.php');  
+            include('./connection.php');  
             $db = new connection();
             $db->selectdb("web");
             $conn= mysqli_connect($db->servername, $db->username, $db->password, $db->data);
