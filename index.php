@@ -5,9 +5,11 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 } else {
   $uri = 'http://';
 }
-$uri .= $_SERVER['HTTP_HOST'];
-header('Location: '.$uri.'/login/');
-exit;
+if (isset($_POST)){
+  $uri .= $_SERVER['HTTP_HOST'];
+  header('Location: '.$uri.'/dashboard/shefooweb/login/');
+  exit;
+}
 ?>
 <!DOCTYPE html>
 <html>
