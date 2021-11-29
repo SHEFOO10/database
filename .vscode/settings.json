@@ -20,11 +20,11 @@
             "previewLimit": 50,
             "server": "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
             "port": 3306,
-            "driver": "MySQL",
-            "name": "SHEFOO2",
+            "driver": "MariaDB",
+            "name": "shefooo",
             "database": "fgbc02eho5e29ha2",
-            "username": "ppbp5t14e10uui4i",
-            "password": "sjbhttch2213ubb4"
+            "password": "sjbhttch2213ubb4",
+            "username": "ppbp5t14e10uui4i"
         }
     ]
 }

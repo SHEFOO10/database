@@ -7,9 +7,9 @@ class connection {
 
   // Methods
    function selectdb($data){
-    $username = "shefoo";
-    $servername= "localhost";
-    $password= "shefoo";
+    $username = "	ppbp5t14e10uui4";
+    $servername= "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $password= "	sjbhttch2213ubb4";
     $this->data= $data;
     $this->username= $username;
     $this->servername= $servername;
