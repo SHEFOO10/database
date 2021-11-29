@@ -5,7 +5,7 @@ if ($_SESSION['LAST_ACTIVITY'] - time() > 1800){
     session_destroy();
 }
     if($_SERVER['REQUEST_METHOD'] == "POST"){
-            include('./connection.php');  
+            include('/connection.php');  
             $db = new connection();
             $db->selectdb("fgbc02eho5e29ha2");
             $conn= mysqli_connect($db->servername, $db->username, $db->password, $db->data);
