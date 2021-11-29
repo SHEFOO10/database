@@ -16,7 +16,7 @@ if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 
 echo 'Now:       '. date('Y-m-d') ."\n";
 echo session_id();
 if($_SERVER['REQUEST_METHOD'] == "POST"){
-    include(__DIR__ . '/connection.php');  
+    include 'connection.php';  
         $db = new connection();
         $db->selectdb("fgbc02eho5e29ha2");
         $conn= mysqli_connect($db->servername, $db->username, $db->password, $db->data);
