@@ -42,11 +42,11 @@ if (isset($_POST["submit"]))
 </head>
 <body>
  
-<form method="post" enctype="multipart/form-data" multiple>
+<form method="post" enctype="multipart/form-data">
     <label>Title</label>
     <input type="text" name="title">
     <label>File Upload</label>
-    <input type="File" name="file">
+    <input type="File" name="file" multiple>
     <input type="submit" name="submit">
  <?php
  $sql = "SELECT * FROM file"; 
