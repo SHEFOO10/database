@@ -2,7 +2,24 @@
 session_start();
 
     if($_SERVER['REQUEST_METHOD'] == "POST"){
-            require __DIR__ . 'connection.php';  
+        class connection {
+            // Properties
+              public $username, $servername, $password, $data;
+              
+          
+            // Methods
+             function selectdb($data){
+              $username = "	ppbp5t14e10uui4";
+              $servername= "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+              $password= "	sjbhttch2213ubb4";
+              $this->data= $data;
+              $this->username= $username;
+              $this->servername= $servername;
+              $this->password= $password;
+                } 
+              
+              }
+               
             $db = new connection();
             $db->selectdb("fgbc02eho5e29ha2");
             $conn= mysqli_connect($db->servername, $db->username, $db->password, $db->data);
