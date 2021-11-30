@@ -4,7 +4,7 @@ session_start();
     if($_SERVER['REQUEST_METHOD'] == "POST"){
         class connection {
             // Properties
-              public $username, $servername, $password, $data;
+              public $username, $servername, $password, $data, $port;
               
           
             // Methods
@@ -12,6 +12,8 @@ session_start();
               $username = "	ppbp5t14e10uui4";
               $servername= "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
               $password= "	sjbhttch2213ubb4";
+              $port= 3306;
+              $this->port = $port;
               $this->data= $data;
               $this->username= $username;
               $this->servername= $servername;
@@ -22,7 +24,7 @@ session_start();
                
             $db = new connection();
             $db->selectdb("fgbc02eho5e29ha2");
-            $conn= mysqli_connect($db->servername, $db->username, $db->password, $db->data);
+            $conn= mysqli_connect($db->servername, $db->username, $db->password, $db->data, $db->port);
             $username = $_POST['user'];
             $password = $_POST['pass'];  
 
