@@ -1,7 +1,7 @@
 <?php
 session_start();
 include 'connection.php';
-    if($_SERVER['REQUEST_METHOD'] == "POST"){
+    /*if($_SERVER['REQUEST_METHOD'] == "POST"){
         class connection {
             // Properties
               public $username, $servername, $password, $data, $port;
@@ -61,5 +61,5 @@ echo "Connected successfully";
                 } 
             }else{
                 echo "not working";
-            }
+            }*/
 ?>    
