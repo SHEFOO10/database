@@ -21,7 +21,7 @@ if (isset($_POST["submit"]))
     #TO move the uploaded file to specific location
     move_uploaded_file($tname, $uploads_dir.'/'.$pname);
  
-    if ($_FILES['error'] == 4){
+    if ($_FILES["file"]["error"] === 4){
         echo "not uploaded";
     }else{
     #sql query to insert into database
