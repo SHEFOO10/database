@@ -5,19 +5,6 @@
                 "authProtocol": "default"
             },
             "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MariaDB",
-            "name": "SHEFOO",
-            "database": "shefoo",
-            "username": "shefoo",
-            "password": "shefoo"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default"
-            },
-            "previewLimit": 50,
             "server": "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
             "port": 3306,
             "driver": "MariaDB",
@@ -25,6 +12,19 @@
             "database": "fgbc02eho5e29ha2",
             "password": "sjbhttch2213ubb4",
             "username": "ppbp5t14e10uui4i"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "SHEFOO",
+            "database": "web",
+            "username": "shefoo",
+            "password": "shefoo"
         }
     ]
 }
