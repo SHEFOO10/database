@@ -1,11 +1,9 @@
 <?php 
 
 session_start();
-if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
+
   $uri = 'https://';
-} else {
-  $uri = 'http://';
-}
+
 if (isset($_POST)){
   $uri .= $_SERVER['HTTP_HOST'];
   header('Location: '.$uri.'/login/');
