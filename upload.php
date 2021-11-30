@@ -46,7 +46,7 @@ if (isset($_POST["submit"]))
     <label>Title</label>
     <input type="text" name="title">
     <label>File Upload</label>
-    <input type="File[]" name="file" multiple>
+    <input type="File" name="file[]" multiple>
     <input type="submit" name="submit">
  <?php
  $sql = "SELECT * FROM file"; 
