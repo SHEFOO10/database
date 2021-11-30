@@ -15,7 +15,7 @@ if (isset($_POST["submit"]))
  
     #temporary file name to store file
     $tname = $_FILES["file"]["tmp_name"];
-   
+    print_r($_FILES);
      #upload directory path
 $uploads_dir = 'images';
     #TO move the uploaded file to specific location
