@@ -1,6 +1,6 @@
 <?php
 
-class connection {
+/*class connection {
   // Properties
     public $username, $servername, $password, $data;
     
@@ -16,7 +16,8 @@ class connection {
     $this->password= $password;
       } 
     
-    }
+    }*/
+    echo "included sucessfully";
     
   
 
