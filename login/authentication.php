@@ -8,7 +8,7 @@ session_start();
               
           
             // Methods
-             function selectdb($data){
+             function selectdb(){
               $servername = "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
               $username = "ppbp5t14e10uui4i";
               $password = "sjbhttch2213ubb4";
@@ -22,7 +22,8 @@ session_start();
                 } 
               
               }
-$cone= new connection();        
+$cone= new connection;
+$cone->selectdb();
 $servername=$cone->servername;
 $username=$cone->username;
 $password=$cone->password;
