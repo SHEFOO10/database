@@ -1,0 +1,1 @@
+<?require_once $_SERVER['DOCUMENT_ROOT'].'/common/configs/config_templates.inc.php';?>

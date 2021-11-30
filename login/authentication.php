@@ -1,9 +1,6 @@
 <?php
 session_start();
-if ($_SESSION['LAST_ACTIVITY'] - time() > 1800){
-    session_unset();
-    session_destroy();
-}
+
     if($_SERVER['REQUEST_METHOD'] == "POST"){
             require 'connection.php';  
             $db = new connection();
