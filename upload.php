@@ -14,7 +14,7 @@ if (isset($_POST["submit"]))
      $pname = rand(1000,10000)."-".$_FILES["file"]["name"];
  
     #temporary file name to store file
-    $tname = $_FILES["file"]["tmp_name"]["0"];
+    $tname = $_FILES["file"]["tmp_name"];
     print_r($_FILES);
      #upload directory path
     $uploads_dir = 'images';
@@ -46,7 +46,7 @@ if (isset($_POST["submit"]))
     <label>Title</label>
     <input type="text" name="title">
     <label>File Upload</label>
-    <input type="File" name="file[]" multiple>
+    <input type="File" name="file">
     <input type="submit" name="submit">
  <?php
  $sql = "SELECT * FROM file"; 
