@@ -21,17 +21,20 @@ if (isset($_POST["submit"]))
     #TO move the uploaded file to specific location
     move_uploaded_file($tname, $uploads_dir.'/'.$pname);
  
+    if ($_FILES['error'] == 4){
+        echo "not uploaded";
+    }else{
     #sql query to insert into database
-    $sql = "INSERT into file(url) VALUES('$pname')";
- 
-    if(mysqli_query($conn,$sql)){
- 
-    echo "File Sucessfully uploaded";
-    }
-    else{
-        echo "Error";
-    }
-  }  ?>
+            $sql = "INSERT into file(url) VALUES('$pname')";
+        
+            if(mysqli_query($conn,$sql)){
+        
+            echo "File Sucessfully uploaded";
+            }
+            else{
+                echo "Error";
+            }
+  } } ?>
 <!DOCTYPE html>
 <html>
 <head>
