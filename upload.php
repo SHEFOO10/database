@@ -14,7 +14,7 @@ if (isset($_POST["submit"]))
      $pname = rand(1000,10000)."-".$_FILES["file"]["name"];
  
     #temporary file name to store file
-    $tname = $_FILES["file"]["tmp_name"];
+    $tname = $_FILES["file"]["tmp_name"]["0"];
     print_r($_FILES);
      #upload directory path
     $uploads_dir = 'images';
