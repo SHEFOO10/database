@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include './connection.php';
 //Start the session
 session_start();
 if ($_SESSION['LAST_ACTIVITY'] - time() > 1800){
