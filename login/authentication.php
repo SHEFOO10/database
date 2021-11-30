@@ -9,9 +9,10 @@ session_start();
           
             // Methods
              function selectdb($data){
-              $username = "	ppbp5t14e10uui4i";
-              $servername= "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-              $password= "sjbhttch2213ubb4";
+              $servername = "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+              $username = "ppbp5t14e10uui4i";
+              $password = "sjbhttch2213ubb4";
+              $data = "fgbc02eho5e29ha2";
               $port= 3306;
               $this->port = $port;
               $this->data= $data;
@@ -21,12 +22,12 @@ session_start();
                 } 
               
               }
-               
-              $servername = "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$username = "ppbp5t14e10uui4i";
-$password = "sjbhttch2213ubb4";
-$data = "fgbc02eho5e29ha2";
-$port= 3306;
+$cone= new connection();        
+$servername=$cone->servername;
+$username=$cone->username;
+$password=$cone->password;
+$data=$cone->data;
+$port=$cone->port;
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $data, $port);
 
