@@ -4,11 +4,10 @@ session_start();
 
   $uri = 'https://';
 
-if (isset($_POST)){
+
   $uri .= $_SERVER['HTTP_HOST'];
   header('Location: '.$uri.'/login/');
-  exit;
-}
+
 ?>
 <!DOCTYPE html>
 <html>
