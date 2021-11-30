@@ -33,7 +33,7 @@ echo "Connected successfully";
                 $count = mysqli_num_rows($result);  
                 
                 if($count == 1){  
-                   header('Location: /app/upload.php');
+                   header('Location: /upload.php');
                     
                 }  
                 else{  
