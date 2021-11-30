@@ -1,36 +1,16 @@
 <?php
 session_start();
 include 'connection.php';
-    /*if($_SERVER['REQUEST_METHOD'] == "POST"){
-        class connection {
-            // Properties
-              public $username, $servername, $password, $data, $port;
-              
-          
-            // Methods
-             function selectdb(){
-              $servername = "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-              $username = "ppbp5t14e10uui4i";
-              $password = "sjbhttch2213ubb4";
-              $data = "fgbc02eho5e29ha2";
-              $port= 3306;
-              $this->port = $port;
-              $this->data= $data;
-              $this->username= $username;
-              $this->servername= $servername;
-              $this->password= $password;
-                } 
-              
-              }
-$cone= new connection;
-$cone->selectdb();
-$servername=$cone->servername;
-$username=$cone->username;
-$password=$cone->password;
-$data=$cone->data;
-$port=$cone->port;
+if($_SERVER['REQUEST_METHOD'] == "POST"){
+  $cone= new connection;
+  $cone->selectdb();
+  $servername=$cone->servername;
+  $username=$cone->username; 
+  $password=$cone->password;
+  $data=$cone->data;
+  $port=$cone->port;
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $data, $port);
+  $conn = mysqli_connect($servername, $username, $password, $data, $port);
 
 // Check connection
 if (!$conn) {
@@ -61,5 +41,5 @@ echo "Connected successfully";
                 } 
             }else{
                 echo "not working";
-            }*/
+            }
 ?>    
