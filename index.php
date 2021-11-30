@@ -1,4 +1,6 @@
 <?php 
+$path = '/';
+set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 session_start();
 if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
   $uri = 'https://';
