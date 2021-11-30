@@ -42,7 +42,7 @@ if (isset($_POST["submit"]))
 </head>
 <body>
  
-<form method="post" enctype="multipart/form-data" aria-multiselectable="$_FILES">
+<form method="post" enctype="multipart/form-data" multiple>
     <label>Title</label>
     <input type="text" name="title">
     <label>File Upload</label>
