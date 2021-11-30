@@ -9,7 +9,7 @@ session_start();
           
             // Methods
              function selectdb($data){
-              $username = "	ppbp5t14e10uui4";
+              $username = "	ppbp5t14e10uui4i";
               $servername= "nnsgluut5mye50or.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
               $password= "	sjbhttch2213ubb4";
               $port= 3306;
