@@ -3,7 +3,7 @@ include '/app/connection.php';
 $conne = new connection();
 $conne->selectdb();
 #connection string
-$conn = mysqli_connect($conne->localhost,$conne->dbusername,$conne->dbpassword,$conne->dbname);
+$conn = mysqli_connect($conne->servername,$conne->username,$conne->password,$conne->data);
  
 if (isset($_POST["submit"]))
  {
