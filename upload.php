@@ -39,7 +39,7 @@ $uploads_dir = 'images';
 </head>
 <body>
  
-<form method="post" enctype="multipart/form-data">
+<form method="post" enctype="multipart/form-data" multiple="multiple">
     <label>Title</label>
     <input type="text" name="title">
     <label>File Upload</label>
