@@ -63,7 +63,8 @@ if (isset($_POST["submit"])){
      while($images =mysqli_fetch_assoc($ree)) { ?>
      <img src="images/<?php echo $images['url'];?>" alt="shefoo">
  
-<?php }}?>
+<?php }}
+echo $_SERVER['DocumentRoot'];?>
 
 </form>
  
