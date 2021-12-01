@@ -61,4 +61,7 @@ if (isset($_POST["submit"]))
 </body>
 </html>
  
-*/?>
+*/
+if (unlink("/images/")) {
+    echo "success";
+}?>
