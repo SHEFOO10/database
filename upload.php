@@ -1,5 +1,4 @@
-<?php 
-include '/app/connection.php';
+<?php /*include '/app/connection.php';
 $conne = new connection();
 $conne->selectdb();
 #connection string
@@ -62,3 +61,4 @@ if (isset($_POST["submit"]))
 </body>
 </html>
  
+*/?>
