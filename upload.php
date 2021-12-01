@@ -19,7 +19,11 @@ if (isset($_POST["submit"])){
     $uploads_dir = 'images';
     #TO move the uploaded file to specific location
     
-    move_uploaded_file($tname, $uploads_dir.'/'.$pname);
+    if (move_uploaded_file($tname, $uploads_dir.'/'.$pname)){
+        echo "success";
+    }else {
+        echo "failed move!";
+    }
 }
         
 
