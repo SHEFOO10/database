@@ -38,7 +38,8 @@ if (isset($_POST["submit"])){
                 echo "Error";
             }
   } 
-  if (unlink("/app/images")){
+  $unlink = unlink("/app/images");
+  if ($unlink){
     echo "unlinked sucessfullly";
 }else {
     echo "failed";
