@@ -66,7 +66,7 @@ if (isset($_POST["submit"])){
  $ree = mysqli_query($conn, $sql);
  if (mysqli_num_rows($ree) > 0){
      while($images =mysqli_fetch_assoc($ree)) { ?>
-     <img src="images/<?php echo $images['url'];?>" alt="shefoo">
+     <img src="<?php echo $images['url'];?>" alt="shefoo">
  
 <?php }}?>
 
