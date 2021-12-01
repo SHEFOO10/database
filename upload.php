@@ -5,8 +5,7 @@ $conne->selectdb();
 #connection string
 $conn = mysqli_connect($conne->servername,$conne->username,$conne->password,$conne->data);
  
-if (isset($_POST["submit"]))
- {
+if (isset($_POST["submit"])){
      #retrieve file title,
         $title = $_POST["title"];
      
@@ -20,16 +19,11 @@ if (isset($_POST["submit"]))
     $uploads_dir = 'images';
     #TO move the uploaded file to specific location
     
-    if (move_uploaded_file($tname, $uploads_dir.'/'.$pname)) {
-        echo "success";
-        if (unlink("/app/images/")){
-            echo "unlinked sucessfullly";
-        }else {
-            echo "failed";
-        }
-    }else {
-        echo "not success";
-    }
+    move_uploaded_file($tname, $uploads_dir.'/'.$pname);
+}
+        
+
+    
     if ($_FILES["file"]["error"] === 4){
         echo "not uploaded";
     }else{
@@ -43,7 +37,12 @@ if (isset($_POST["submit"]))
             else{
                 echo "Error";
             }
-  } } ?>
+  } 
+  if (unlink("/app/images")){
+    echo "unlinked sucessfullly";
+}else {
+    echo "failed";
+} ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,6 +69,3 @@ if (isset($_POST["submit"]))
  
 </body>
 </html>
- 
-
-?>
