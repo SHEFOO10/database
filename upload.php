@@ -1,5 +1,5 @@
-<?php/* 
- include '/app/connection.php';
+<?php 
+ include 'connection.php';
 $conne = new connection();
 $conne->selectdb();
 #connection string
@@ -42,12 +42,7 @@ if (isset($_POST["submit"])){
                 echo "Error";
             }
   } 
-  $unlink = unlink("/app/images");
-  if ($unlink){
-    echo "unlinked sucessfullly";
-}else {
-    echo "failed";
-} ?>
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -74,4 +69,3 @@ if (isset($_POST["submit"])){
  
 </body>
 </html>
-*/?>
