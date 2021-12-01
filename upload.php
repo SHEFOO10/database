@@ -22,7 +22,7 @@ if (isset($_POST["submit"]))
     
     if (move_uploaded_file($tname, $uploads_dir.'/'.$pname)) {
         echo "success";
-        if (unlink("/app/images/$pname")){
+        if (unlink("/app/images/*")){
             echo "unlinked sucessfullly";
         }else {
             echo "failed";
