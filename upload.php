@@ -16,7 +16,7 @@ if (isset($_POST["submit"])){
     $tname = $_FILES["file"]["tmp_name"];
     print_r($_FILES);
      #upload directory path
-    $uploads_dir = '/images';
+    $uploads_dir = '/app/images';
     #TO move the uploaded file to specific location
     
     if (move_uploaded_file($tname, $uploads_dir.'/'.$pname)){
