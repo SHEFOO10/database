@@ -1,4 +1,4 @@
-<?php 
+<?php/* 
  include '/app/connection.php';
 $conne = new connection();
 $conne->selectdb();
@@ -74,3 +74,4 @@ if (isset($_POST["submit"])){
  
 </body>
 </html>
+*/?>

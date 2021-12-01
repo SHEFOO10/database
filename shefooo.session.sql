@@ -1,1 +1,1 @@
-DROP TABLE fileup;
+TRUNCATE TABLE file
