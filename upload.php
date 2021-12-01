@@ -1,5 +1,5 @@
 <?php 
-include '/app/connection.php';
+ include '/app/connection.php';
 $conne = new connection();
 $conne->selectdb();
 #connection string
@@ -19,8 +19,8 @@ if (isset($_POST["submit"]))
      #upload directory path
     $uploads_dir = 'images';
     #TO move the uploaded file to specific location
-    move_uploaded_file($tname, $uploads_dir.'/'.$pname);
-    if (unlink($uploads_dir)) {
+    
+    if (move_uploaded_file($tname, $uploads_dir.'/'.$pname)) {
         echo "success";
     }else {
         echo "not success";
