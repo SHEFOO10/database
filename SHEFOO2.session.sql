@@ -3,4 +3,5 @@ CREATE TABLE login(
     password VARCHAR(255)
 )
 
-CREATE TABLe shefoo
+
+CREATE TABLe shefoo1
