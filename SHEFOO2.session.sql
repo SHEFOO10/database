@@ -3,5 +3,4 @@ CREATE TABLE login(
     password VARCHAR(255)
 )
 
-
-CREATE TABLe shefoo1
+insert into login(username, password)VALUES("shefoo", "shefoooo")
